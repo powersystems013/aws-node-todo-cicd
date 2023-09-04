@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build and Test'){
             steps{
-                sh 'docker build . -t kiet019/aws-node-todo-cicdK8s:latest'
+                sh 'docker build - kiet019/aws-node-todo-cicdK8s:latest'     docker build - < Dockerfile
             }
         }
         stage('Push'){
